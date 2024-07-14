@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Estate</title>
-
-    <!--* Style sheet -->
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
-<body>
-    <header class="header">
-        <div class="contenedor content-header">
-            <div class="bar">
-                <a href="/">
-                    <img src="build/img/logo.svg" alt="Real estate logo">
-                </a>
-
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="mobile mobile">
-                </div>
-
-                <div class="right">
-                    <nav class="navigation">
-                        <a href="about-us.html">About Us</a>
-                        <a href="listings.html">Listings</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contact.html">Contact</a>
-                    </nav>
-                    <img class="dark-mode-btn" src="build/img/dark-mode.svg" alt="Dark Mode">
-                </div>
-            </div> <!--! Closing of bar -->
-        </div> <!--! Closing of content-header -->
-    </header>
+<?php include 'includes/templates/header.php'; ?>
 
     <main class="contenedor contenido-centrado">
         <h1>Our Blog</h1>
@@ -45,7 +12,7 @@
                 </picture>
             </div> 
             <div class="text-entry">
-                <a href="entry.html">
+                <a href="entry.php">
                     <h4>Terrace on the roof of your house</h4>
                     <p>Written on <span>20/10/2023</span> by: <span>Admin</span></p>
 
@@ -65,7 +32,7 @@
                 </picture>
             </div> 
             <div class="text-entry">
-                <a href="entry.html">
+                <a href="entry.php">
                     <h4>Terrace on the roof of your house</h4>
                     <p>Written on <span>20/10/2023</span> by: <span>Admin</span></p>
 
@@ -85,7 +52,7 @@
                 </picture>
             </div> 
             <div class="text-entry">
-                <a href="entry.html">
+                <a href="entry.php">
                     <h4>Terrace on the roof of your house</h4>
                     <p>Written on <span>20/10/2023</span> by: <span>Admin</span></p>
 
@@ -105,7 +72,7 @@
                 </picture>
             </div> 
             <div class="text-entry">
-                <a href="entry.html">
+                <a href="entry.php">
                     <h4>Terrace on the roof of your house</h4>
                     <p>Written on <span>20/10/2023</span> by: <span>Admin</span></p>
 
@@ -117,19 +84,4 @@
         </article>
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor container-footer">
-            <nav class="navigation">
-                <a href="about-us.html">About Us</a>
-                <a href="listings.html">Listings</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-
-        <p class="copyright">All rights reserved 2024 &copy;</p>
-    </footer>
-    
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+<?php include 'includes/templates/footer.php'; ?>
